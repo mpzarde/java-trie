@@ -18,7 +18,7 @@ I adapted the Koders classes to eliminate fixed alphabets and add case
 sensitivity to the searches (might be something I make optional at some point).
 
 I'm including an IntelliJ IDEA project if you'd like to play with these classes
-(run the TrieRunner.main method after you compile) but you should be able 
+(run the com.truecool.trie.TrieRunner.main method after you compile) but you should be able
 to incorporate these with ease into your project by copying into your project
 source and modifying package declarations accordingly.
 
@@ -46,7 +46,7 @@ Step one is to instantiate and load our trie;
 
 The trie can be instantiated simply by invoking the default constructor:
 
-Trie main = new Trie();
+com.truecool.trie.Trie main = new com.truecool.trie.Trie();
 
 To add entries to the trie simply use the insert method as follows:
 
@@ -65,10 +65,10 @@ result = main.search(entry);
 if (result == null) {
 	// No match found
   System.out.println("Not found");
-} else if (result instanceof Trie) {
+} else if (result instanceof com.truecool.trie.Trie) {
 	// Multiple matches, data will hold sorted list of matching objects
   System.out.println("Multiple matches:");
-  Trie trie = (Trie) result;
+  com.truecool.trie.Trie trie = (com.truecool.trie.Trie) result;
   List data = trie.getSortedList();
 } else {
 	// Exact match result is our object from inser operation
