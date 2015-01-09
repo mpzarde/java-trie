@@ -11,13 +11,12 @@ A good example is any kind of application where we let the user type and
 quickly come up with a list of words starting with what the user typed in.
 
 The classes included in the package are an adaptation of the trie Abstract
-Data Type (ADT) to Java. The original work was done by Koders at 
-http://www.koders.com/java/fid0F06E53F2CFCC6E591C38752F355A7178F92FFE5.aspx?s=trie.
+Data Type (ADT) to Java. The original work was done by Koders (which doesn't exist anymore).
 
 I adapted the Koders classes to eliminate fixed alphabets and add case 
 sensitivity to the searches (might be something I make optional at some point).
 
-I'm including an IntelliJ IDEA project if you'd like to play with these classes
+If you'd like to play with these classes
 (run the com.truecool.trie.TrieRunner.main method after you compile) but you should be able
 to incorporate these with ease into your project by copying into your project
 source and modifying package declarations accordingly.
@@ -91,6 +90,3 @@ To do:
 1) Make case sensitivity optional
 2) Separate dump type functions into separate class to have clean trie class
 3) Clean up the java interface and add javadocs everywhere.
-
-If you have any questions or feedback feel free to drop me an email at
-mpzarde@truecool.com.
